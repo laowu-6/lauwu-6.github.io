@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>人物介绍 - [姓名]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>[人物姓名]</h1>
+        <p class="subtitle">[简短标语或身份]</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#intro">简介</a></li>
+            <li><a href="#biography">生平</a></li>
+            <li><a href="#achievements">成就</a></li>
+            <li><a href="#gallery">相册</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="intro">
+            <h2>简介</h2>
+            <img src="portrait.jpg" alt="[姓名]肖像" class="profile-img">
+            <p>[简要介绍文字...]</p>
+        </section>
+        
+        <section id="biography">
+            <h2>生平</h2>
+            <p>[详细生平介绍...]</p>
+            <ul class="timeline">
+                <li><strong>年份</strong> - 重要事件</li>
+                <!-- 更多时间线项目 -->
+            </ul>
+        </section>
+        
+        <section id="achievements">
+            <h2>主要成就</h2>
+            <div class="achievement-card">
+                <h3>成就标题</h3>
+                <p>成就描述</p>
+            </div>
+            <!-- 更多成就卡片 -->
+        </section>
+        
+        <section id="gallery">
+            <h2>相册</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="照片描述">
+                <!-- 更多照片 -->
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>© 2023 [姓名]介绍网页 | 联系方式: [邮箱或社交媒体]</p>
+    </footer>
+</body>
+</html>
